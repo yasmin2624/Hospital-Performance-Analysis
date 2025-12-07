@@ -146,22 +146,7 @@ Evaluates hospital workforce:
 5. 🌐 **Enhance online booking** and digital payment experiences
 
 ---
-
-## 📫 Contact
-
-For questions or collaboration:
-
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐙 GitHub: [Your GitHub Profile]
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+ 
 
 ## ⭐ Show Your Support
 
