@@ -1,177 +1,168 @@
-📊 Hospital Performance Analysis – Power BI Dashboard
-📌 Overview
+# 🏥 Hospital Performance Analysis – Power BI Dashboard
 
-This project presents a comprehensive Hospital Performance Analysis built using Power BI.
-The dashboard evaluates key aspects of hospital operations, including:
+## 📌 Overview
 
-Appointments performance
+This project presents a comprehensive **Hospital Performance Analysis** built using **Power BI**. The dashboard evaluates key aspects of hospital operations, including:
 
-Admissions trends
-
-Department utilization & revenue
-
-Patient demographics & diagnoses
-
-Staff distribution & workload
+- ✅ Appointments performance
+- 🏨 Admissions trends
+- 🏢 Department utilization & revenue
+- 👥 Patient demographics & diagnoses
+- 👨‍⚕️ Staff distribution & workload
 
 The goal is to uncover operational issues, identify improvement opportunities, and support data-driven decision making.
 
-🗂️ Project Contents
+---
 
-The repository includes:
-
+## 🗂️ Project Structure
+```
 📁 Hospital-Performance-Analysis
 │
-├── 📄 Hospital_Dashboard.pbix        (Power BI file)
-├── 📄 Report.pdf                     (Full detailed analysis report)
-└──  📁 Dataset/                       (Raw data used in the project)
-      ├── Appointments.csv
-      ├── Admissions.csv
-      ├── Patients.csv
-      ├── Staff.csv
-      ├── Rooms.csv
-      └── ... etc
+├── 📄 Hospital_Dashboard.pbix        # Power BI file
+├── 📄 Report.pdf                     # Full detailed analysis report
+└── 📁 Dataset/                       # Raw data used in the project
+    ├── Appointments.csv
+    ├── Admissions.csv
+    ├── Patients.csv
+    ├── Staff.csv
+    ├── Rooms.csv
+    └── ... etc
+```
 
+---
 
-🎯 Objectives
+## 🎯 Objectives
 
 The project aims to:
 
-Measure hospital operational efficiency.
+- 📊 Measure hospital operational efficiency
+- 📅 Analyze appointment completion, cancellation, and no-show behavior
+- 🛏️ Evaluate inpatient admissions, room occupancy, and bed utilization
+- 👤 Understand patient demographics and top diagnoses
+- ⚖️ Assess staff workload distribution to detect imbalances
+- 💡 Provide insights and recommendations for performance improvement
 
-Analyze appointment completion, cancellation, and no-show behavior.
+---
 
-Evaluate inpatient admissions, room occupancy, and bed utilization.
+## 📊 Dashboards Included
 
-Understand patient demographics and top diagnoses.
-
-Assess staff workload distribution to detect imbalances.
-
-Provide insights and recommendations for performance improvement.
-
-📌 Dashboards Included
-1️⃣ Appointments Dashboard
+### 1️⃣ Appointments Dashboard
 
 Covers key appointment KPIs:
 
-Total Appointments
+- **Total Appointments**
+- **Completion, Cancellation, and Missed Rates**
+- **Appointment Revenue**
+- Appointment trends over time
+- Distribution of booking modes (Online, Call, In-Person)
+- Payment mode revenue comparison
 
-Completion, Cancellation, and Missed Rates
+**Key Highlights:**
+- ⚠️ 14.5% of appointments are lost due to cancellations/no-shows
+- 📱 Online, Call, and In-Person booking methods are nearly equally used
+- 💳 Digital Wallets generate the highest appointment revenue
 
-Appointment Revenue
+---
 
-Appointment trends over time
-
-Distribution of booking modes (Online, Call, In-Person)
-
-Payment mode revenue comparison
-
-Highlights:
-
-14.5% of appointments are lost due to cancellations/no-shows.
-
-Online, Call, and In-Person booking methods are nearly equally used.
-
-Digital Wallets generate the highest appointment revenue.
-
-2️⃣ Admissions & Departments Dashboard
+### 2️⃣ Admissions & Departments Dashboard
 
 Focuses on inpatient insights:
 
-Total admissions
+- **Total Admissions**
+- **Total Rooms, Total Beds, and Occupancy Indicators**
+- Room type distribution
+- Revenue from rooms, beds, and appointments
+- Top 5 departments by revenue and utilization
+- Length-of-stay analysis
 
-Total rooms, total beds, and occupancy indicators
+**Key Highlights:**
+- 💰 Rooms and beds generate over 98% of total revenue
+- 🏥 Critical Care and Surgery are the highest-performing departments
+- 📌 Large number of same-day admissions indicates possible data quality issues
 
-Room type distribution
+---
 
-Revenue from rooms, beds, and appointments
+### 3️⃣ Patients Analysis Dashboard
 
-Top 5 departments by revenue and utilization
+Analyzes the hospital's patient base:
 
-Length-of-stay analysis
+- **Total Patients & Total Visits**
+- **Average Age and Stay Duration**
+- Visit trends across time
+- Gender distribution
+- Age group segmentation
+- Top diagnoses and common medical conditions
 
-Highlights:
+**Key Highlights:**
+- 👴 Majority of patients are 45+ years old
+- 🩺 "General Checkup" is the most frequent diagnosis
+- 📈 Visit volume peaks early in the year
 
-Rooms and beds generate over 98% of total revenue.
+---
 
-Critical Care and Surgery are the highest-performing departments.
-
-Large number of same-day admissions indicates possible data quality issues.
-
-3️⃣ Patients Analysis Dashboard
-
-Analyzes the hospital’s patient base:
-
-Total patients & total visits
-
-Average age and stay duration
-
-Visit trends across time
-
-Gender distribution
-
-Age group segmentation
-
-Top diagnoses and common medical conditions
-
-Highlights:
-
-Majority of patients are 45+ years old.
-
-“General Checkup” is the most frequent diagnosis.
-
-Visit volume peaks early in the year.
-
-4️⃣ Staff & Workload Dashboard
+### 4️⃣ Staff & Workload Dashboard
 
 Evaluates hospital workforce:
 
-Total doctors, nurses, and support staff
+- **Total Doctors, Nurses, and Support Staff**
+- Staff distribution by department
+- Doctor workload comparisons
+- Detection of workload imbalance
 
-Staff distribution by department
+**Key Highlights:**
+- ⚠️ Strong imbalance in doctor workload (e.g., one doctor handling 500+ appointments)
+- ✅ The hospital has a healthy staff-to-patient ratio overall
 
-Doctor workload comparisons
+---
 
-Detection of workload imbalance
+## 🛠️ Tools & Technologies
 
-Highlights:
+- **Power BI Desktop** – Data visualization and dashboarding
+- **Power Query** – Data cleaning and transformation
+- **DAX** – Measures and KPIs creation
+- **Data Modeling** – Star Schema implementation
+- **CSV/Excel** – Source datasets
 
-Strong imbalance in doctor workload (e.g., one doctor handling 500+ appointments).
+---
 
-The hospital has a healthy staff-to-patient ratio overall.
+## 📈 Key Insights Summary
 
-🛠️ Tools & Technologies
+| Insight | Description |
+|---------|-------------|
+| ⚠️ **High Appointment Loss Rate** | 14.5% loss negatively affects revenue |
+| 💰 **Revenue Concentration** | Revenue is heavily concentrated in a small number of departments |
+| 👴 **Elderly Population** | Largest age group of patients |
+| 💳 **Digital Payment Adoption** | Digital payments are widely adopted |
+| ⚖️ **Workload Imbalance** | Staff workload distribution needs optimization |
 
-Power BI Desktop
+---
 
-Power Query for data cleaning
+## 💡 Recommendations
 
-DAX for measures and KPIs
+1. 📲 **Implement appointment reminders** to reduce no-shows
+2. ⚖️ **Redistribute workload** among doctors more evenly
+3. 📝 **Improve data entry** to fix same-day admission anomalies
+4. 🏨 **Optimize room pricing** and occupancy strategies
+5. 🌐 **Enhance online booking** and digital payment experiences
 
-Data Modeling (Star Schema)
+---
 
-CSV/Excel datasets
+## 📫 Contact
 
-📈 Key Insights Summary
+For questions or collaboration:
 
-Appointment loss rate is high and negatively affects revenue.
+- 📧 Email: [your-email@example.com]
+- 💼 LinkedIn: [Your LinkedIn Profile]
+- 🐙 GitHub: [Your GitHub Profile]
 
-Revenue is heavily concentrated in a small number of departments.
+---
 
-Elderly population represents the largest age group.
+## 📄 License
 
-Digital payments are widely adopted.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Staff workload distribution needs optimization.
+---
 
-💡 Recommendations
+## ⭐ Show Your Support
 
-Implement appointment reminders to reduce no-shows.
-
-Redistribute workload among doctors more evenly.
-
-Improve data entry to fix same-day admission anomalies.
-
-Optimize room pricing and occupancy strategies.
-
-Enhance online booking and digital payment experiences.
+If you found this project helpful, please give it a ⭐!
